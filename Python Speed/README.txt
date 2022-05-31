@@ -8,8 +8,7 @@ speed.py
 -------------------------------------------
 Short: Finds the quickest way to do common python tasks like: initialize a list of length n, fastest Iterative Control Structure.
 
-Long: One thing I like and hate about Python is that there is a lot of abstraction. That makes things a lot easier when writing code but when it comes to efficency (where the nanosecond counts)
-then its difficult to know which method of doing a task is quicker. For example, say I want to initalize a list (don't know the elements yet) of length n. Should I do:
+Long: Its nice that Python has a lot of abstraction. However, it makes it difficult to know which method of doing a task is quicker. For example, say I want to initalize a list (don't know the elements yet) of length n. Should I do:
 [None] * n 
 [None for _ in range(n)]
 Or should I just do an empty list and just use .append() for all the elements once I receive them.
