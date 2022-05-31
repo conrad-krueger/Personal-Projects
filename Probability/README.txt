@@ -31,7 +31,7 @@ python shutTheBox.py
 
 Short: Simulates [insert amount] games of Shut the Box and records how many instances the user sucessfully shuts the box. Also, depicts additional statistics.
 
-Long: Shut the box is a game where there is a set of 9 integers [1,2,3,4,5,6,7,8,9] and 2 dice. Each round the two die are rolled and the player must use a combination of the 
+Long: Shut the box is a game where there is a set of 9 integers [1,2,3,4,5,6,7,8,9] and 2 dice. Each round the two dice are rolled and the player must use a combination of the 
 set of integers that results in the summation of the two die. After this all of the integers used for that round are removed from the set. If all integers are successfully removed from the set
 then you win and have "shut the box." If you end up with a dice roll that cannot be added up with the remaining integers in the set then you lose that game. 
 This program was an attempt to find an optimal algorithm to win.
