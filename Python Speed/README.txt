@@ -31,7 +31,7 @@ This givens Tim a massive advantage over me. Even if I have better time complexi
 Also, its worth noting Quick Sort had awful timing. It was the slowest implemented which makes sense (and it was the recursive implementation which is even slower). So I created mevsTim2.py to just focus on Counting Sort.
 
 I decided to optimize Counting Sort by not including the step where it accumulates the values of the axuillary list. That is one less O(n) for loop, which does not change the time complexity but does make it faster timing wise. At this point, I am just try to save every nanosecond I can and find an n in which
-this will go faster. mevsTimv2.py does the same thing as mevsTim.py but just tests my modified counting sort. These results are much more impressive. As long as the list size is over 1,000,000 elements long, Modified Counting Sort is faster. mevsTimv2.py also attempts to see how far this sorting algorithm can go.
+this will go faster. mevsTimv2.py does the same thing as mevsTim.py but just tests my modified counting sort. These results are much more impressive. As long as the list size is over 2,000,000 elements long, Modified Counting Sort is faster. mevsTimv2.py also attempts to see how far this sorting algorithm can go.
 mevsTimv2.py's Counting Sort had a bunch of preconditions that will make it faster than Tim Sort:
 - The maximum value is less than or equal to O(n)
 - Minimum element in the list is 0.
