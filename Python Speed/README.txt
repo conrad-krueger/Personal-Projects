@@ -19,7 +19,7 @@ This file uses the Python Module time's perf_counter() to answer these questions
 -------------------------------------------
 mevsTim.py & mevsTimV2.py
 -------------------------------------------
-Short: Attempted to create a sorting algorithm faster than Python's builtin sort() function. Ended Up with Modified Counting Sort on Integers where the minimum value of the list is 0, the maximum value of the list is in O(n), and n >= 2,000,000.
+Short: Attempted to create a sorting algorithm faster than Python's builtin sort() function. Ended Up with Modified Counting Sort on Integers where the minimum value of the list is 0, the maximum value of the list is <= O(n), and n >= 2,000,000.
 
 Long: After taking Data Structures and Algorithms (having learned a plethora of sorting algorithms, some of which have their own advantages), I recalled python having a built in sort() algorithm and thinking to myself, why? There has got to be certain scenarios in which 
 a different sorting algorithm is faster than the one implemented here. I did some research and found out Python uses TimSort as its sorting algorithm for large lists (and insertion sort for small scale). My first instinct was to try out out all of the common sorting algorithms that had the same or 
