@@ -1,7 +1,7 @@
 Python Speed
 =============================================
 
-This folder contains python scripts that like to measure the actual speed of certain python operations and utilize that to develop better coding habits. 
+This folder contains python scripts that measure the actual speed of certain python operations and utilize that to develop better coding habits. 
 
 -------------------------------------------
 speed.py
