@@ -22,6 +22,28 @@ def sort(lst):
   return newLst
 
 
+
+def sort2(lst):
+  minVal = min(lst)
+  store = [0] * (max(lst)-minVal+1) #keeps track of repeated values
+  newLst = [None] * len(lst) #returned sorted list
+
+  #increment indexes
+  for val in lst:
+    store[val-minVal] += 1
+
+  i = 0
+  for index,occurs in enumerate(store):
+
+    while(occurs != 0):
+      newLst[i] = index+minVal
+      occurs -= 1
+      i+= 1
+  
+  return newLst
+
+
+
 def test(totalIter, minN, maxN, maxVal, verbose = True):
   tim = None
   me = None
