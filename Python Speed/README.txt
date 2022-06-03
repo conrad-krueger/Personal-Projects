@@ -32,4 +32,6 @@ Also, its worth noting Quick Sort had awful timing (recursive implementation). S
 I decided to optimize Counting Sort by not including the step where it accumulates the values of the axuillary list. That is one less O(n) for loop, which does not change the time complexity but does make it faster timing wise. At this point, I am just try to save every nanosecond I can and find an n in which
 this will go faster. mevsTimv2.py does the same thing as mevsTim.py but just tests my modified counting sort. These results are much more impressive. As long as the list size is over 2,000,000 elements long, Modified Counting Sort is faster. 
 
+UPDATE: Added sort2() to mevsTimv2.py
+Allows user to sort a list of positive and/or negative integers. Time & Space Complexity is O(n + k) where k is the difference between the maximum and minimum element in the list. With testing, it seems the list has to be over 5 million if the list includes equal amounts of positive and negative integers to be faster than Tim Sort. 
 
