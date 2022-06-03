@@ -33,5 +33,5 @@ I decided to optimize Counting Sort by not including the step where it accumulat
 this will go faster. mevsTimv2.py does the same thing as mevsTim.py but just tests my modified counting sort. These results are much more impressive. As long as the list size is over 2,000,000 elements long, Modified Counting Sort is faster. 
 
 UPDATE: Added sort2() to mevsTimv2.py
-Allows user to sort a list of positive and/or negative integers. Time & Space Complexity is O(n + k) where k is the difference between the maximum and minimum element in the list. With testing, it seems the list has to be over 5 million if the list includes equal amounts of positive and negative integers to be faster than Tim Sort. 
+Allows user to sort a list of positive and/or negative integers. Time & Space Complexity is O(n + k) where k is the difference between the maximum and minimum element in the list. With testing, it seems the list has to contain over 5 million elements, with equal amounts of positive and negative integers, to be faster than Tim Sort. 
 
