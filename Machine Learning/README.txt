@@ -14,7 +14,7 @@ These notes were compiled based on the freecodecamp.org "TensorFlow 2.0 Complete
 classifyEmAll.py (uses pkmn_img)
 -------------------------------------------
 Run:
-First download pkmn_img folder. Edit lines 20-22, by typing the directory of the pkmn_img folder where <INSERT DIRECTORY HERE> is seen.
+First download pkmn_img folder. Edit lines 20-22 and 122, by typing the directory of the pkmn_img folder where <INSERT DIRECTORY HERE> is seen.
 python classifyEmAll.py
 
 Uses a CNN with a pretrained model (tf.keras.applications.MobileNetV2) to classifiy images of 3 starter Pokemon (Bulbasuar, Charmander, Squirtle).
