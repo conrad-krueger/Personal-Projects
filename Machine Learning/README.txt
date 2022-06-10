@@ -7,7 +7,7 @@ This folder contains any Machine Learning Architecture I wrote.
 TF.ipynb
 -------------------------------------------
 Contains notes about basic TensorFlow commands and a brief introduction to different types of Machine Learning Models, including Linear Regression, Markov Models, and Neural Networks (DNN, CNN, RNN).
-These notes were compiled based on the freecodecamp.org "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial"
+These notes were compiled based on freecodecamp.org's "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial"
 
 
 -------------------------------------------
