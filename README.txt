@@ -18,12 +18,12 @@ I hope you enjoy and feel free to reach out to me. Thanks!
 CURRENTLY WORKING ON...
 ======================================
 
-- Dense Neural Network from scratch in C++
+- Dense Neural Network from scratch in C++ [IN PROGRESS... Working on back propagation]
 
-- Graphics for hangman, battleship
+- Graphics for hangman, battleship [NOT STARTED]
 
-- DNN (or CNN) for solving sudoku puzzles
+- DNN (or CNN) for solving sudoku puzzles [NOT STARTED]
 
-- Conway's Game of Life
+- Conway's Game of Life [NEARLY COMPLETE... Pending approval from App Store]
 
 
