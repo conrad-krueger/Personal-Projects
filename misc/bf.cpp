@@ -40,7 +40,7 @@ char* bf(char* ptr, std::string cmd){
             int nested = 1;
             size_t x = i+1;
             while(nested != 0){
-                if (x == cmd.size()) throw "SyntaxError: No Terminating character for while loop ( ] )";
+                if (x == cmd.size()) throw "SyntaxError: No Terminating while loop character( ] )";
                 
                 if (cmd.at(x) == '['){
                     nested++;
