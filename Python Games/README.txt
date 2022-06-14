@@ -38,7 +38,7 @@ Short: Play Murder Mystery where you and 9 other players (all computers) are ass
 detective(good- investigate players and reveals roles), doctor (good - prevents murders from occurring toward a selected player), and citizen (good - does nothing).
 Murderers must kill all of the good team, while the good team tries to vote out the murderers.
 
-Long: This game was inspired by the popular family game mafia where the mafia would execute a player every night and the players would wake up and discuss
+Long: This game was inspired by the popular family game mafia where the mafia would "execute" a player every night and the players would wake up and discuss
 who should be voted out. This game was modified where innocent players could also have additional roles to aid them in discovering who the evildoers are.
 As stated in the short description, detectives are able to investigate a player every night. If the player is a detective, they will manually select who they want to investigate.
 If they find someone evil, they will be prompted if they want to release this information to the public. This, however, may be a bad idea since every round there are 2 murderers, and if a player
