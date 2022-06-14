@@ -26,7 +26,7 @@ char* bf(char* ptr, std::string cmd){
             --(*ptr);
         }
         else if(cmd.at(i) == '+'){
-            if (*ptr == 127) throw out_of_range("ERROR: No ASCII values passed 127");
+            if (*ptr == 127) throw out_of_range("ERROR: No ASCII values past 127");
             ++(*ptr);
         }
         else if(cmd.at(i) == ','){
