@@ -21,13 +21,13 @@ char* bf(char* ptr, std::string cmd){
         else if(cmd.at(i) == '.'){
             cout << *ptr;
         }
-        else if(cmd.at(i) == '+'){
-            if (*ptr == 0) throw out_of_range("ERROR: No negative ASCII values");
-            ++(*ptr);
-        }
         else if(cmd.at(i) == '-'){
-            if (*ptr == 127) throw out_of_range("ERROR: No ASCII values passed 127");
+            if (*ptr == 0) throw out_of_range("ERROR: No negative ASCII values");
             --(*ptr);
+        }
+        else if(cmd.at(i) == '+'){
+            if (*ptr == 127) throw out_of_range("ERROR: No ASCII values passed 127");
+            ++(*ptr);
         }
         else if(cmd.at(i) == ','){
             char c;
