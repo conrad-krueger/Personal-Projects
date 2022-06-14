@@ -13,7 +13,7 @@ Short: Play battleship against a naive computer.
 
 Long: Game where you can randomly place 5 ships of size 5,4,3,3,2 on a 10x10 board and attempt to hit
 the opponent's ships before the computer sinks all of your ships. The computer is running on a purely random guessing algorithm.
-battleshipV2.py is in the making to have the computer develop a more intelligent guessing algorithm with graphics.
+battleshipV2.py is in the making to have the computer develop a more intelligent guessing algorithm. Along with graphics.
 
 
 -------------------------------------------
