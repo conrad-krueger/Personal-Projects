@@ -10,12 +10,12 @@ Compile and Run:
 g++ bf.cpp -o bf
 ./bf <insert .txt filename with bf syntax>
 
-Short: A C++ program that acts as an interpreter of the esoteric programming language brainf***
+Short: A C++ program that acts as an interpreter of an esoteric programming language.
 
 Long: One of my favorite youtube channels, Fireship, has a series called "in 100 seconds" where he explains a new programming language in 100 seconds.
 One of these langauges was an esoteric programming language, with a not so PG-13 name, whose goal was to run on the smallest compiler with only 8 commands 
 so I took it up as a fun challenge to to write an interpreter for the language in C++. It's turing complete and is a language in which you essentially manually increment
-and decrement memory. There is a single pointer on 30000 bytes of memory which is moved left and right by using > and < respectively. Input and output is , and . repspectivley.
+and decrement memory. There is a single pointer on 30000 bytes of memory which is moved left and right by using > and < respectively. Input and output is , and . respectively.
 incrementing and decrementing a cell value is + and - respectively. And the only iterative control structure is a while loop [ /*code here*/] and will exit once the pointer's value is 0.
 
 
