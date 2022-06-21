@@ -143,7 +143,7 @@ def main():
   print("Beat dealer because they busted and player didn't:",player_W_bust)
   print()
 
-  if __name__ == "__main__":
-    main()
+if __name__ == "__main__":
+  main()
 
 
