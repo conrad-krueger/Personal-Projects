@@ -22,7 +22,8 @@ exit once the pointer has a value of 0.
 
 
 Here is "Hello, World!" found in helloworld.txt
->++++++++[<+++++++++>-]<.
+                                                          
+\>++++++++[<+++++++++>-]<.
 >++++[<+++++++>-]<+.
 +++++++..
 +++.
