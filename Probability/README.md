@@ -40,17 +40,21 @@ The generating function for the summation of two die is: A(z) = z^2 + 2z^3 + 3z^
 4z^9 + 3z^10 + 2z^11 + z^12 where the exponent represents the summation of two dice and the coefficent is the 
 number of ways 2 dice can sum up to the corresponding exponent. This can be used to determine the probability of 
 rolling 2 dice and the sum equaling the exponent (coefficent/36). 
+
 A brute force approach was used to generate all of the possible combinations of the numbers 1 through 9 
 that sum to all of the possible dice rolls (2 through 12). Then, each number (1-9) is used as a key in a python 
 dictionary. After a number is used in a potential summation (say of the number A), that corresponding number's
 dictionary index was incremented by the weight or probability of rolling an A. The algorithm then will role two 
 die and loop over all the possible combinations that the player can use. The algorithm will pick the combination 
 of numbers that have the least weight (based on the dictionary).
+
 Three other common methods are used (always pick least amount of numbers and closest to the middle, pick the 
 most amount of numbers, and randomly select a combination that works). As of now, the weight method described 
 above has the best win rate (~6%). 
+
 More accurate statistical conclusions are in the program (developing a confidence interval, showing statistics 
 on games lost).
+
 The second best was the "use least amount of numbers and closest to center of box" method at ~5.88%. To show 
 this is a statistically significant difference, these two proportions can be compared with the  
 comparingProportion.py file that performs a hypothesis test (the null hypothesis was rejected under 5% alpha level). 
@@ -69,10 +73,12 @@ amount of points the user is willing to get on any given hand (will override com
 Long: Simulates the game blackjack where a player continously receives cards from the dealer (hit) until the sum 
 of the players cards is as close to 21 as possible (without going over). This simulates a player vs dealer 
 scenario.
+
 Dealer will win in the following situations:
 - Both players bust (go over 21)
 - User busts and Dealer does not
 - Dealer has same score or higher than the player (without busting)
+
 Note: Dealer has no strategy except the dealer MUST hit until their score is >= 17 (will stop hitting after it 
 meets this condition).
 
@@ -97,10 +103,12 @@ needed to complete the game: Ender Pearls and Blaze Rods. This was suspected as 
 significantly higher than the expected drop rate. The minecraft speedrunning moderators published a youtube 
 video (https://www.youtube.com/watch?v=-MYw9LcLCb4&t=615s) and paper that showed how unlikely Dream's situation 
 was.
+
 Their paper was used the Binomial Distribution as a basis to show the likelyhood of getting 42/262 ender pearls 
 (when the population proportion is ~5%) and getting 211/305 blaze rods (when the population proportion is 50%). 
 This script simply runs as many iterations as the user desires and depicts how many instances of those 
 iterations got the same blaze drop rate, the same ender pearl drop rate, and both.
+
 Note: Minecraft uses Java's Random class as its random generator (for nearly everything). So I used it as well 
 as a method of getting a different seed for the Random object. This simulation is a naive recreation of the 
 issue at hand and does not EXACTLY represent Minecraft's method of determining blaze rod or ender pearl drops. 
