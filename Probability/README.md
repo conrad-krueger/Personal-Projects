@@ -86,7 +86,7 @@ DreamProb.java
 -------------------------------------------
 Compile and Run:
 javac DreamProb.java
-java DropRateTest
+java DropRatesTest
 
 Short: Simulates 262 ender pearl and 305 blaze rod drops chances for user defined iterations and compares them 
 to popular Youtuber Dream's odds.
