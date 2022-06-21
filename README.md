@@ -19,9 +19,10 @@ I hope you enjoy and feel free to reach out to me. Thanks!
 
 
 
-======================================
+
 CURRENTLY WORKING ON...
-======================================
+-------------
+
 
 - Dense Neural Network from scratch in C++ [MOSTLY COMPLETE...]
 
