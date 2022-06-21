@@ -91,7 +91,7 @@ int main(int argc, char** argv){
     //interpret
     bf(ptr,cmd);
 
-    delete[] memory; //deallocate mem
+    delete[] memory; //deallocation
     
 }
 
