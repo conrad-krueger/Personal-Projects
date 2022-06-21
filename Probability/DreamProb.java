@@ -44,8 +44,8 @@ class DropRatesTest{
         int maxBlaze = 0;
         int maxEnder = 0;
 
-        int minBlaze = 0;
-        int minEnder = 0;
+        int minBlaze = 305;
+        int minEnder = 262;
 
 
         int sumBlaze = 0;
