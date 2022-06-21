@@ -70,6 +70,7 @@ int main(int argc, char** argv){
     
     char* ptr = memory;
     
+    //read syntax from txt file
     string file = argv[1];
 
     ifstream inFile(file); 
@@ -86,10 +87,11 @@ int main(int argc, char** argv){
         std::getline(inFile,currentCmd);
         cmd += currentCmd;
     }
-
+    
+    //interpret
     bf(ptr,cmd);
 
-    delete[] memory;
+    delete[] memory; //deallocate mem
     
 }
 
