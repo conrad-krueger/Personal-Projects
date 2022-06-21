@@ -21,7 +21,7 @@ value is + and - respectively. And the only iterative control structure is a whi
 exit once the pointer has a value of 0.
 
 
-Here is "Hello, World!" found in helloworld.txt
+Here is how to output "Hello, World!" found in helloworld.txt
                                                           
 \>++++++++[<+++++++++>-]<.
 \>++++[<+++++++>-]<+.
