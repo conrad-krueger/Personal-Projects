@@ -29,18 +29,22 @@ Long: Python's builtin sort() algorithm seems too good to be true. Given that ce
 better than others in certain situations, there had to be at least one scenario in which a different sorting 
 algorithm was faster. After some research, Python uses TimSort as its sorting algorithm for large lists (and 
 insertion sort for small scale). 
+
 The first attempt at beating TimSort was to try out out all of the common sorting algorithms that had the same or 
 better time complexity than TimSort (TimSort has O(n log n) time complexity in all cases). Thus, msvsTim.py has 
 the implementation of recursive QuickSort (O(n log n) but O(n^2) in worst case), Counting Sort (O(n+k) where k is 
 the maximum value of the list), and Bucket Sort (O(n+k)). Not dealing with floating point numbers yet so Radix 
 sort was not implemented. Merge was also not implemented since while it does have the same complexity, Tim Sort 
 seems to be one of the fastest, if not the fastest, O(n log n) algorithms out there. 
+
 After running theses tests on different list sizes, Tim Sort always came out ahead. This was shocking since only 
 integers were used and the maximum integer (k) was not larger than O(n). Thus, Bucket Sort and Counting Sort have 
 actual time complexities of O(n). 
+
 However, sort() was written in C which givens Tim a massive timing advantage since C is faster than python.  
 Still, at some point, the better time complexity of Counting/Bucket Sort would eventually overtake Tim Sort if n 
 got large enough.
+
 Also, its worth noting Quick Sort had awful timing. So mevsTim2.py was created to just focus on Counting Sort.
 
 Counting Sort was optimized by not including the step where it accumulates the values of the auxillary list. That 
@@ -50,6 +54,7 @@ Counting Sort. These results are much more impressive. As long as the list size 
 Modified Counting Sort is faster. 
 
 UPDATE: Added sort2() to mevsTimv2.py
+
 Allows user to sort a list of positive and/or negative integers. Time & Space Complexity is O(n + k) where k is 
 the difference between the maximum and minimum element in the list. With testing, it seems the list has to 
 contain over 5 million elements, with equal amounts of positive and negative integers, to be faster than Tim 
