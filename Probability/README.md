@@ -1,7 +1,7 @@
 Probability
 =============================================
 
-This folder contains small programs that are used to simulate large iterations of events to approximate or provide evidence to vailidate a probability claim.
+This folder contains scripts that simulate large iterations of events to approximate the probability of those events occuring.
 
 
 -------------------------------------------
