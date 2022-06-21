@@ -59,7 +59,6 @@ freq = {41:0}
 
 rollInARow = 0
 iter = int(input("Enter number of Iterations: "))
-r.seed(int(input("Seed number: ")))
 
 for p in range(iter):
     jailed = False
