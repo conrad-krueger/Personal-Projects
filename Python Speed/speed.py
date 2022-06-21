@@ -94,9 +94,8 @@ def createListTest(n):
 
 
 def main():
-  #createListTest(100000000)
-  #traverseTest(100000000)
-  pass
+  createListTest(100000000)
+  traverseTest(100000000)
 
 if __name__ == "__main__":
   main()
