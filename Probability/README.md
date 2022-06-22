@@ -102,7 +102,7 @@ to popular Youtuber Dream's odds.
 Long: A popular Minecraft Youtuber named Dream was accused of cheating during some of his Minecraft Speedruns
 (playing through a game of minecraft as fast as possible) by modifying the drop rate of two essential items 
 needed to complete the game: Ender Pearls and Blaze Rods. This was suspected as Dream's drop rates were
-significantly higher than the expected drop rate. The minecraft speedrunning moderators published a youtube 
+significantly higher than the expected drop rate. The Minecraft Speedrunning Moderators published a youtube 
 video (https://www.youtube.com/watch?v=-MYw9LcLCb4&t=615s) and paper that showed how unlikely Dream's situation 
 was.
 
