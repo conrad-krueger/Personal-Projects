@@ -117,7 +117,7 @@ public extension UIDevice {
 
 /**
  In case of scaling issues on any given iphone, the user is able to shrink and expand the view of the entire grid
- - notes: made slight modifications than given link below
+ - notes: made slight modifications than what is show in given link below
  https://stackoverflow.com/questions/58341820/isnt-there-an-easy-way-to-pinch-to-zoom-in-an-image-in-swiftui
  */
 
