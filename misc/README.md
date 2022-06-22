@@ -21,7 +21,7 @@ interpreter for the language in C++.
 It's turing complete and is a language in which you essentially manually 
 increment and decrement memory. There is a single pointer on 30000 bytes of memory which is moved left and right 
 by using > and < respectively. Input and output is , and . respectively. Incrementing and decrementing a cell 
-value is + and - respectively. And the only iterative control structure is a while loop [ /*code here*/] and will 
+value is + and - respectively. And the only iterative control structure is a while loop [ *code here* ] and will 
 exit once the pointer has a value of 0.
 
 
@@ -56,7 +56,9 @@ Here is how to output "Hello, World!" found in helloworld.txt
 matrix.cpp & matrix.h
 -------------------------------------------
 Compile and Run:
+                         
 g++ matrix.cpp -o matrix
+                         
 ./matrix
 
 Short + Long: Files that contain the implementation of a Matrix ADT with the addition of functions that accept 
