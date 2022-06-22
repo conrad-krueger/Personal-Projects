@@ -1,7 +1,7 @@
 Games
 =============================================
 
-This folder contains recreation of popular games. 
+This folder contains a recreation of popular games. 
 
 -------------------------------------------
 hangman.py
@@ -22,7 +22,7 @@ Run:
 python murderMystery.py
 
 Short: Play Murder Mystery where you and 9 other players (all computers) are assigned the roles of murderer (evil - kill all of the good team),
-detective (good- investigate players and reveals roles), doctor (good - prevents murders from occurring toward a selected player), 
+detective (good- investigate players and reveal roles), doctor (good - prevents murders from occurring toward a selected player), 
 and citizen (good - does nothing). Murderers must kill all of the good team, while the good team tries to vote out the murderers.
 
 Long: This game was inspired by the popular family game mafia where the mafia would "execute" a player every night and the players would 
