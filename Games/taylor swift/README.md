@@ -1,7 +1,7 @@
 taylor swift
 =============================================
 
-This folder contains a recreation of popular games written with the swiftUI framework.
+This folder contains a recreation of popular games written in Swift.
 
 -------------------------------------------
 conwayv4 (Cell: Game of Life / Conway's Game of Life)
