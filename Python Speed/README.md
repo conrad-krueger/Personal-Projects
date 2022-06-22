@@ -11,8 +11,11 @@ Control Structure.
 
 Long: Python's abstraction makes it easier to use, yet difficult to know which method of doing a task is quicker. 
 For example, say the user want to initalize a list (don't know the elements yet) of length n. Should the user do:
+
 [None] * n 
+
 [None for _ in range(n)]
+
 Or should the user just do an empty list and just use .append() for all the elements once they receive them.
 
 This file uses the Python Module time's perf_counter() to answer these questions.
