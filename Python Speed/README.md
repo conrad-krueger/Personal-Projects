@@ -62,3 +62,5 @@ Allows a user to sort a list of positive and/or negative integers. Time & Space 
 the difference between the maximum and minimum element in the list. With testing, it seems the list has to 
 contain over 5 million elements, with equal amounts of positive and negative integers, to be faster than Tim 
 Sort. 
+
+NOTE: Obviously these are not exact brightlines as to when Modified Counting Sort will be faster than Tim Sort. Every device is different.
