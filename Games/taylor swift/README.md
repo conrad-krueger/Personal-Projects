@@ -1,4 +1,4 @@
-Taylor Swift
+taylor swift
 =============================================
 
 This folder contains a recreation of popular games written with the swiftUI framework.
