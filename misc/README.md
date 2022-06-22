@@ -7,7 +7,9 @@ This folder contains miscellaneous progams that I wrote.
 bf.cpp
 -------------------------------------------
 Compile and Run:
+
 g++ bf.cpp -o bf
+
 ./bf <insert .txt filename with bf syntax>
 
 Short: A C++ program that acts as an interpreter of an esoteric programming language.
