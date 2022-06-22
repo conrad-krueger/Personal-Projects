@@ -11,7 +11,7 @@ First download pkmn_img folder. Edit lines 20-22 and 122, by typing the director
 <INSERT DIRECTORY HERE> is seen.
 python classifyEmAll.py
 
-Uses a CNN with a pretrained model (tf.keras.applications.MobileNetV2) to classifiy images of 3 starter Pokemon
+Uses a CNN with a pre-trained model (tf.keras.applications.MobileNetV2) to classify images of 3 starter Pokemon
 (Bulbasuar, Charmander, Squirtle).
 ~ 80% accurate.
 
@@ -23,7 +23,7 @@ python stockPrediction.py
 
 Uses a Long Short Term Memory Recurrent Neural Network to predict the trend of Amazon stock (AMZN.csv). 
 More extrapolation = significantly more inaccuracy.
-  
+  
 -------------------------------------------
 TF.ipynb
 -------------------------------------------
@@ -44,5 +44,4 @@ As of now, I have created a neural network that uses every single one of these a
 model on the training data on only 3 epochs.
 
 List of attacks: ['normal' (no attack), 'neptune', 'warezclient', 'ipsweep', 'portsweep', 'teardrop', 'nmap', 'satan', 'smurf', 'pod', 'back', 'guess_passwd', 'ftp_write', 'multihop', 'rootkit', 'buffer_overflow', 'imap', 'warezmaster', 'phf', 'land', 'loadmodule', 'spy', 'perl']
-
 
