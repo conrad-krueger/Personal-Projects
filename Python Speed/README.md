@@ -63,4 +63,6 @@ the difference between the maximum and minimum element in the list. With testing
 contain over 5 million elements, with equal amounts of positive and negative integers, to be faster than Tim 
 Sort. 
 
-NOTE: Obviously these are not exact brightlines as to when Modified Counting Sort will be faster than Tim Sort. Every device is different.
+NOTE: Obviously these are not exact bright lines as to when Modified Counting Sort will be faster than Tim Sort.
+Every device is different (testing on my mac, list sizes should surpass 10 million).
+
