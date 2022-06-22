@@ -341,7 +341,7 @@ struct ContentView: View {
     }
     
     /**
-     Kills all cells in grid (sets each enry in grid to false)
+     Kills all cells in grid (sets each entry in grid to false)
         - update: grid
      */
     func clear(){
@@ -554,6 +554,7 @@ struct ContentView: View {
                             Image(systemName:"trash" ).scaleEffect(1.25).padding(.bottom).opacity(play ? 0 : 1)
                         }.buttonStyle(.plain).foregroundColor(Color.blue)
                         Spacer()
+                        
                         //Shuffle button (calls randomGen())
                         Button {
                             if !play{
@@ -571,7 +572,6 @@ struct ContentView: View {
                     Button {
                         play = !play
                         soundButton()
-                
                     } label: {
                         Image(systemName: play ? "pause" : "play.fill" ).scaleEffect(2).padding(.bottom).foregroundColor(color)
                     }.buttonStyle(.plain)
@@ -587,7 +587,6 @@ struct ContentView: View {
                             if !small{Button(action: {pattern("pentadecathlon",0,0)}, label: {Text("Pentadecathlon")})}
                             Button(action: {pattern("multiplier",0,0)}, label: {Text("Multiplier")})
                             Button(action: {pattern("multiplier + squares",0,0)}, label: {Text("Multiplier + Squares")})
-                            
                         } label: {
                             Image(systemName:"folder" ).scaleEffect(1.25).padding(.bottom).opacity(play ? 0 : 1)
                         }
@@ -601,7 +600,7 @@ struct ContentView: View {
                 
             }
             
-            //Title Screen apperance
+            //Title Screen appearance
             if titleScreen{
                 
                 Color.black.ignoresSafeArea()
