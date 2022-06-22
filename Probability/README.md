@@ -106,7 +106,7 @@ significantly higher than the expected drop rate. The minecraft speedrunning mod
 video (https://www.youtube.com/watch?v=-MYw9LcLCb4&t=615s) and paper that showed how unlikely Dream's situation 
 was.
 
-Their paper was used the Binomial Distribution as a basis to show the likelyhood of getting 42/262 ender pearls 
+Their paper used the Binomial Distribution as a basis to show the likelyhood of getting 42/262 ender pearls 
 (when the population proportion is ~5%) and getting 211/305 blaze rods (when the population proportion is 50%). 
 This script simply runs as many iterations as the user desires and depicts how many instances of those 
 iterations got the same blaze drop rate, the same ender pearl drop rate, and both.
