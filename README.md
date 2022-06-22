@@ -9,7 +9,7 @@ Feel free to use any of the code on here.
 
 Each of my projects is found in folders that contain a README.txt file. The README 
 file will contain a description of the general theme of the folder, a brief 
-description (some longer than others) of what each of the source code files do,
+description (some longer than others) of what each of the source code files does,
 how to compile and run. 
 
 I hope you enjoy and feel free to reach out to me. Thanks!
