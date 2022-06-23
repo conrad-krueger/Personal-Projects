@@ -44,8 +44,8 @@ Long: An interpreter of esoteric programming language, with a not-so-PG-13 name,
 smallest compiler. It only has 8 commands (< > + - [ ] , .)so it became a fun challenge to write an 
 interpreter for the language in C++. 
   
-It's Turing complete and is a language in which you essentially manually 
-increment and decrement memory. There is a single pointer on 30000 bytes of memory which is moved left and right 
+It's Turing complete and is a language in which the user essentially manually 
+increment and decrement values in memory. There is a single pointer on 30000 bytes of memory which is moved left and right 
 by using > and < respectively. Input and output is , and . respectively. Incrementing and decrementing a cell 
 value is + and - respectively. And the only iterative control structure is a while loop [ *code here* ] and will 
 exit once the pointer has a value of 0.
