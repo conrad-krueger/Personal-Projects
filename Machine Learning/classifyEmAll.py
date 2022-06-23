@@ -2,6 +2,8 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib as mpl #mac
+mpl.use('tkagg') #mac
 import tensorflow as tf
 from PIL import Image
 import glob
@@ -107,7 +109,7 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
 
 ##TRAIN MODEL##
 
-history = model.fit(train_feature, train_label, epochs=8,shuffle=True,batch_size=32)
+history = model.fit(train_feature, train_label, epochs=10,shuffle=True,batch_size=32)
 
 model.save("ClassifyEmAll.h5")
 
