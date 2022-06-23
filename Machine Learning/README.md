@@ -9,6 +9,7 @@ classifyEmAll.py (uses pkmn_img)
 Run:
 First download pkmn_img folder. Edit lines 20-22 and 122, by typing the directory of the pkmn_img folder where
 <INSERT DIRECTORY HERE> is seen.
+
 python classifyEmAll.py
 
 Uses a CNN with a pre-trained model (tf.keras.applications.MobileNetV2) to classify images of 3 starter Pokemon
@@ -19,6 +20,7 @@ Uses a CNN with a pre-trained model (tf.keras.applications.MobileNetV2) to class
 stockPrediction.py (uses AMZN.csv)
 -------------------------------------------
 Run:
+
 python stockPrediction.py
 
 Uses a Long Short Term Memory Recurrent Neural Network to predict the trend of Amazon stock (AMZN.csv).
