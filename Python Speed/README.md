@@ -64,5 +64,5 @@ contain over 5 million elements, with equal amounts of positive and negative int
 Sort. 
 
 NOTE: Obviously these are not exact bright lines as to when Modified Counting Sort will be faster than Tim Sort.
-Every device is different (testing on my mac, list sizes should surpass 10 million).
+Every device is different (testing on a personal mac, list sizes should surpass 10 million).
 
