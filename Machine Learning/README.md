@@ -14,7 +14,7 @@ python classifyEmAll.py
 
 Uses a CNN with a pre-trained model (tf.keras.applications.MobileNetV2) to classify images of 3 starter Pokemon
 (Bulbasaur, Charmander, Squirtle).
-~ 84-90% accurate (depends on the device the program is ran on).
+~90% accurate (depends on the device the program is ran on).
 
 -------------------------------------------
 stockPrediction.py (uses AMZN.csv)
