@@ -54,11 +54,11 @@ Short + Long: Files that contain the implementation of a Matrix ADT with the add
 Matrix objects as arguments. These include basic linear algebra methods like matrix multiplication, multiplying 
 a matrix by a scalar, matrix subtraction, matrix addition; Finding the transpose, inverse, and determinant of a 
 matrix (when appropriate). 
-\n
+
 Used primarily for demonstration of C++ concepts like encapsulation, inheritance, templating, operator 
 overloading, overriding functions with virtual keyword, recursion, and rule of three (copy assignment operator, 
 copy constructor, destructor).
-                         
+
 Note: This file is not concerned with the speed of the code but demonstration of C++ concepts. For example, when 
 overloading operator-, it would be more efficient to just copy the operator+ code and just subtract
 each value. The implemented method of multiplying the right-hand matrix by -1 and then just adding the two matrices 
