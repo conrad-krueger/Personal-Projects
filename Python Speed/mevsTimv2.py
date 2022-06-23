@@ -44,7 +44,7 @@ def sort2(lst):
 
 
 
-def test(totalIter, minN, maxN, maxVal, verbose = True):
+def test(totalIter, minN, maxN, minVal, maxVal, verbose = True):
   tim = None
   me = None
   iter = 0
@@ -55,7 +55,7 @@ def test(totalIter, minN, maxN, maxVal, verbose = True):
   for _ in range(totalIter):
       n = r.randint(minN ,maxN)
 
-      lst = [r.randint(0,maxVal) for _ in range(n)]
+      lst = [r.randint(minVal,maxVal) for _ in range(n)]
       r.shuffle(lst)
       mx = max(lst)
       mn = min(lst)
@@ -98,10 +98,11 @@ def test(totalIter, minN, maxN, maxVal, verbose = True):
 def main(): 
     iterations = 25 #how many tests
     minListSize, maxListSize = 1000000, 3000000 #will generate list of random sizes of minListSize to and including maxListSize
-    maxValue = 1000000 #lists will contain integer values randomly from 0 to maxValue
+    maxValue = 1000000 #lists will contain integer values randomly from minValue to maxValue
+    minValue = 0
     verbose = True #should it print info on every iteration or not
 
-    test(iterations, minListSize, maxListSize, maxValue, verbose)
+    test(iterations, minListSize, maxListSize, minValue, maxValue, verbose)
 
 
 if __name__ == "__main__":
