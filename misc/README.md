@@ -8,9 +8,9 @@ This folder contains miscellaneous programs.
 matrix.cpp & matrix.h
 -------------------------------------------
 Compile and Run:
-                         
+
 g++ matrix.cpp -o matrix
-                         
+
 ./matrix
 
 Short + Long: Files that contain the implementation of a Matrix ADT with the addition of functions that accept 
