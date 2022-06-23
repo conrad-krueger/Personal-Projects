@@ -3,43 +3,6 @@ misc
 
 This folder contains miscellaneous programs.
 
--------------------------------------------
-bf.cpp
--------------------------------------------
-Compile and Run:
-
-g++ bf.cpp -o bf
-
-./bf <insert .txt filename with bf syntax>
-
-Short: A C++ program that acts as an interpreter of an esoteric programming language.
-
-Long: An interpreter of esoteric programming language, with a not-so-PG-13 name, whose goal was to run on the 
-smallest compiler. It only has 8 commands (< > + - [ ] , .)so it became a fun challenge to write an 
-interpreter for the language in C++. 
-  
-It's Turing complete and is a language in which you essentially manually 
-increment and decrement memory. There is a single pointer on 30000 bytes of memory which is moved left and right 
-by using > and < respectively. Input and output is , and . respectively. Incrementing and decrementing a cell 
-value is + and - respectively. And the only iterative control structure is a while loop [ *code here* ] and will 
-exit once the pointer has a value of 0.
-
-
-Here is how to output "Hello, World!" found in helloworld.txt
-                                                          
-\>++++++++[<+++++++++>-]<.                           
-\>++++[<+++++++>-]<+.                   
-\+++++++..                    
-\+++.                   
-\>>++++++[<+++++++>-]<++.                     
-\------------.                   
-\>++++++[<+++++++++>-]<+.                  
-\<.
-\+++.
-\------.
-\--------.
-\>>>++++[<++++++++>-]<+.
-
 
 -------------------------------------------
 matrix.cpp & matrix.h
@@ -66,6 +29,42 @@ has fewer lines of code, is more readable, and shows how one can use previously 
 computation. However, it is slower since multiplying a matrix by a scalar causes an entirely new matrix object to 
 be created and then the addition is performed. 
 
+-------------------------------------------
+bf.cpp
+-------------------------------------------
+Compile and Run:
+
+g++ bf.cpp -o bf
+
+./bf <insert .txt filename with bf syntax>
+
+Short: A C++ program that acts as an interpreter of an esoteric programming language.
+
+Long: An interpreter of esoteric programming language, with a not-so-PG-13 name, whose goal was to run on the 
+smallest compiler. It only has 8 commands (< > + - [ ] , .)so it became a fun challenge to write an 
+interpreter for the language in C++. 
+  
+It's Turing complete and is a language in which you essentially manually 
+increment and decrement memory. There is a single pointer on 30000 bytes of memory which is moved left and right 
+by using > and < respectively. Input and output is , and . respectively. Incrementing and decrementing a cell 
+value is + and - respectively. And the only iterative control structure is a while loop [ *code here* ] and will 
+exit once the pointer has a value of 0.
+
+
+Here is how to output "Hello, World!" found in helloworld.txt
+                                                          
+\>++++++++[<+++++++++>-]<.
+\>++++[<+++++++>-]<+.
+\+++++++..
+\+++.
+\>>++++++[<+++++++>-]<++.
+\------------.
+\>++++++[<+++++++++>-]<+.
+\<.
+\+++.
+\------.
+\--------.
+\>>>++++[<++++++++>-]<+.
 
 -------------------------------------------
 covidDeltaData.ipynb
