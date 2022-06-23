@@ -107,7 +107,7 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
 
 ##TRAIN MODEL##
 
-history = model.fit(train_feature, train_label, epochs=10,shuffle=True,batch_size=32)
+history = model.fit(train_feature, train_label, epochs=8,shuffle=True,batch_size=32)
 
 model.save("ClassifyEmAll.h5")
 
