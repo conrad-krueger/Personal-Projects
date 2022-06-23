@@ -52,7 +52,7 @@ exit once the pointer has a value of 0.
 
 
 Here is how to output "Hello, World!" found in helloworld.txt
-                                                          
+
 \>++++++++[<+++++++++>-]<.
 \>++++[<+++++++>-]<+.
 \+++++++..
