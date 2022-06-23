@@ -107,7 +107,7 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
 
 ##TRAIN MODEL##
 
-history = model.fit(train_feature, train_label, epochs=5,shuffle=True,batch_size=4)
+history = model.fit(train_feature, train_label, epochs=10,shuffle=True,batch_size=32)
 
 model.save("ClassifyEmAll.h5")
 
@@ -138,20 +138,19 @@ for x in range(len(npPkmn)):
     #plt.show(block=True)
     test.append(np.array([image]))
 
-i = 0
+    
 for inst in test:
     
     prediction=model.predict(np.array(inst))[0]
     choice = np.argmax(prediction)
 
-    
-    plt.imshow(npPkmn[i])
-    plt.show(block=True)
     print("Model Predicts:",starterPkmn[choice])
+    plt.imshow(inst[0])
+    plt.show(block=True)
+    
     print(prediction)
     print()
     
-    i+=1
 
 #[Bulbasaur % ,Squirtle %, Charmander %]
 
