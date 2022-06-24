@@ -32,8 +32,7 @@ Future Initiatives:
 - Update shapes.cpp to prevent shapes from being created near the edge, or too small. Otherwise, shapes could be extremely small to where the DNN will always guess a low number (which is an x) and also look the same. For example, both generateX() and generateSquare() could create this shape anywhere on the grid:
 
 
-OO
-
+OO\
 OO
 
 - Implement shapes.cpp in python and run this scenario on TensorFlow (closely mimicking the cpp implementation).
