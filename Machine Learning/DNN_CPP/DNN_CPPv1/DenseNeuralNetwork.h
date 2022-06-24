@@ -1,5 +1,6 @@
 #ifndef DENSE_NEURAL_NETWORK_H
 #define DENSE_NEURAL_NETWORK_H
+
 #include <string>
 #include <vector>
 #include <stdexcept>
@@ -121,8 +122,7 @@ class DenseNeuralNetwork{
 
 
 
-
-
 };
+
 
 #endif
