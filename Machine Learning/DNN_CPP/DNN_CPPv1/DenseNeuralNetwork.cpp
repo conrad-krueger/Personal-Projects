@@ -171,7 +171,7 @@ void DenseNeuralNetwork::clear(){
 
 
 /**
- * Prints out The values of every node
+ * Prints out the values of every node
  * @return None
  */
 void DenseNeuralNetwork::printNodes(){
