@@ -70,7 +70,7 @@ class DenseNeuralNetwork{
 
 
     //Activation functions
-    long double static relu(double val){
+    long double static relu(double val){ 
         if (val == 0) throw "ERROR: ReLU(0) is undefined";
         return (val < 0)? 0 : val;
     }
@@ -78,11 +78,11 @@ class DenseNeuralNetwork{
         return 1.0 / (1.0+exp(-1*val));
     }
 
-    long double static tanh(double val){
+    long double static tanh(double val){ //UNTESTED
         return (1-exp(-2*val))/(1+exp(-2*val));
     }
 
-    void static softmax(double* layer, size_t size){
+    void static softmax(double* layer, size_t size){ //UNTESTED
         double denom = 0;
 
         for (size_t i = 0; i < size; i++){
