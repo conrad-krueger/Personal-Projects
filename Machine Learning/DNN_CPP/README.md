@@ -11,7 +11,9 @@ g++ DenseNeuralNetwork.cpp shapes.cpp -o shapes
 
 ./shapes
 
-**Short + Long:** Contains a DenseNeuralNetwork.h file that contains the overall structure of the DenseNeuralNetwork class,
+**Short + Long:** 
+
+Contains a DenseNeuralNetwork.h file that contains the overall structure of the DenseNeuralNetwork class,
 a DenseNeuralNetwork.cpp file that implements the methods of the class, and a shapes.cpp file that randomly generates 
 a vector of a vector of doubles that represents a square or an x. Each of the files has very specific documentation as to what each function/method does and the mathematics behind it. If the user does not care about the inner workings of the class, just view the .h file as it contains all of the methods the user can use and what each one does.
 
