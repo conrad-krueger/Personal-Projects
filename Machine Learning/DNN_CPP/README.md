@@ -30,8 +30,12 @@ Future Initiatives:
 - In the Constructor, have users specify both a string that contains the name of the loss function being used and a vector of strings of what activation function to use on each layer (besides the input layer). [Easy to implement once I understand how each loss function and activation function works and what their corresponding partial derivatives are…]
 - After this, add a generateTriangle() function to randomly create triangles and use the Neural Network for a multi-classification problem.
 - Update shapes.cpp to prevent shapes from being created near the edge, or too small. Otherwise, shapes could be extremely small to where the DNN will always guess a low number (which is an x) and also look the same. For example, both generateX() and generateSquare() could create this shape anywhere on the grid:
+
+
 OO
+
 OO
+
 - Implement shapes.cpp in python and run this scenario on TensorFlow (closely mimicking the cpp implementation).
 - Possibly implement the batch size hyperparameter.
 - Add save option to store weights in a .txt file and read weights from a .txt file.
