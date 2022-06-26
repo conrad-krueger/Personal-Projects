@@ -104,12 +104,13 @@ def boolCastTest():
   start = perf_counter()
   not not val
   end = perf_counter()
-  print(f"bool():  {end - start}")
+  print(f"not not:  {end - start}")
 
 
 def main():
   createListTest(100000000)
   traverseTest(100000000)
+  boolCastTest()
 
 if __name__ == "__main__":
   main()
