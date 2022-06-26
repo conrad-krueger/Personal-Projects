@@ -91,6 +91,20 @@ def createListTest(n):
     lst[x] = x
   end = perf_counter()
   print(f"None and change:  {end - start}")
+ 
+def boolCastTest():
+  
+  val = 123
+  
+  start = perf_counter()
+  bool(val)
+  end = perf_counter()
+  print(f"bool():  {end - start}")
+  
+  start = perf_counter()
+  not not val
+  end = perf_counter()
+  print(f"bool():  {end - start}")
 
 
 def main():
