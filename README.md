@@ -7,7 +7,7 @@ to using APIs to create Neural Networks.
 Feel free to use any of the code on here.
 
 
-Each of my projects is found in folders that contain a README.txt file. The README 
+Each of my projects is found in folders that contain a README file. The README 
 file will contain a description of the general theme of the folder, a brief 
 description (some longer than others) of what each of the source code files does,
 how to compile and run. 
