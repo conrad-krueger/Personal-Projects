@@ -25,7 +25,7 @@ Updates:
 
 
 Working on for v3 + Future Initiatives:
-* Write file for mea squared error test. Not sure if DNN works for linear regression problems (it probably does)
+* Write file for mean squared error test. Not sure if DNN works for linear regression problems (it probably does)
 * More loss functions
 * More pre-defined accuracy functions
 * Decrease time of execution (TensorFlow is WAY faster than this implementation, however, compiling with the -O3 flag reduces execution time significantly (cutting execution time over 1/2))
