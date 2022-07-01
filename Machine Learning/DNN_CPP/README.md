@@ -4,7 +4,6 @@ DNN_CPP
 -------------------------------------------
 DNN_CPPv2 Folder
 -------------------------------------------
-A folder that contains an implementation of a Dense Neural Network.
 
 DNN_CPPv2:
 
