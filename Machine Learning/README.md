@@ -8,7 +8,7 @@ DNN_CPP folder
 -------------------------------------------
 A folder that contains an implementation of a Dense Neural Network from scratch in C++.
 
-Current Version: v1 [v1 documentation in DNN_CPP Folder]
+Current Version: v2 [v2 documentation in DNN_CPP Folder]
 
 -------------------------------------------
 classifyEmAll.py (uses pkmn_img)
