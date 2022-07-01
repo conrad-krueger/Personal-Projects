@@ -20,7 +20,7 @@ Updates:
 * Got rid of redundant code. Checking if activation functions are valid are checked multiple times when it only has to be checked once.  Still, a ton of redundant code exists, so future versions will hopefully have less of this
 * Add generatingTriangle() method that generates right triangles
 * Also fixed bounds of at the generateX() and generateSquare() method to where it won’t create super tiny Xs and squares
-* Rewrote shapes.cpp to be a multi-classification problem with a softmax output layer. Training is not bad but very long (~84% accurate with testing data)
+* Rewrote shapes.cpp to be a multi-classification problem with a softmax output layer. Training is not bad but very long (~85% accurate with testing data)
 
 
 Working on for v3 + Future Initiatives:
