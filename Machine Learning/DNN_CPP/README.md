@@ -15,12 +15,13 @@ g++ DenseNeuralNetwork.cpp shapes.cpp -o shapes -O3
 
 Updates:
 * Constructor accepts string argument for name of the loss function (as of now, that is “mean squared error” and “cross entropy”) and a vector of strings of the name of the activation functions (as of now, that is “linear”, “relu”, ”tanh”, “softmax”, and “logistic”)
-* train() and test() method have been given an additional”isAccurate” parameter which is a function that accepts two vectors of doubles (the first argument being the predicted vector of the model, and the second vector being the actual resulting model) and returns a boolean if the predicted vector correctly predicted the actual vector (or close enough). Yes, this puts more of a burden on the user. But there are so many metrics to test the “accuracy” of a model it is better if it is defined vs flooding the function body with if statements
+* train() and test() method have been given an additional”isAccurate” parameter which is a function that accepts two vectors of doubles (the first argument being the predicted vector of the model, and the second vector being the correct output) and returns a boolean if the predicted vector correctly predicted the actual vector (or close enough). Yes, this puts more of a burden on the user. But there are so many metrics to test the “accuracy” of a model it is better if it is defined vs flooding the function body with if statements
 * To account for the concern above, maxIndx() and zeroOrOne() was written as predefined static boolean function to measure accuracy. maxIndx() should be used if the output layer activation function is softmax and will return if the maximum value’s index of the predicted vector matches the maximum values index of the actual output. zeroOrOne() should be used if the output activation function is logistic and there is only one output node will return if the predicted output is closer to zero or one and compare that to the actual output
 * Got rid of redundant code. Checking if activation functions are valid are checked multiple times when it only has to be checked once.  Still, a ton of redundant code exists, so future versions will hopefully have less of this
 * Add generatingTriangle() method that generates right triangles
 * Also fixed bounds of at the generateX() and generateSquare() method to where it won’t create super tiny Xs and squares
 * Rewrote shapes.cpp to be a multi-classification problem with a softmax output layer. Training is not bad but very long (~85% accurate with testing data)
+* moved delta arrays as an attribute of the class (this is used for updating the model, better to have it as an attribute vs allocating and deallocating the same memory 10,000 times)
 
 
 Working on for v3 + Future Initiatives:
