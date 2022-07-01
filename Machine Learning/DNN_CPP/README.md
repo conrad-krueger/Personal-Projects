@@ -21,7 +21,7 @@ Updates:
 * Add generatingTriangle() method that generates right triangles
 * Also fixed bounds of at the generateX() and generateSquare() method to where it won’t create super tiny Xs and squares
 * Rewrote shapes.cpp to be a multi-classification problem with a softmax output layer. Training is not bad but very long (~85% accurate with testing data)
-* Moved delta pointers as an attribute of the class (this is used for updating the model, better to have it as an attribute vs allocating and deallocating the same memory 10,000 times)
+* Moved delta pointer as an attribute of the class (this is used for updating the model, better to have it as an attribute vs allocating and deallocating the same memory 10,000 times)
 
 
 Working on for v3 + Future Initiatives:
