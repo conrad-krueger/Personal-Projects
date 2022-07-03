@@ -1,6 +1,23 @@
 DNN_CPP 
 =============================================
 
+**UPDATE:** Added regress.cpp to DNN_CPPv2
+
+Compile and run:
+
+g++ DenseNeuralNetwork.cpp regress.cpp -o line -O3
+
+./line
+
+Used to simulate 2,000 data points between -10 and 10 and use 2 points and generate a label of 2x - 3y + noise. The architecture of the DNN is 2 input nodes and 1 output node. The .cpp file also prints the weights of the DNN before and after training). After only 5 epochs the weights are incredibly close to 2 and -3.
+
+Note 1: Mimicked this article for demonstration https://www.analyticsvidhya.com/blog/2021/06/linear-regression-using-neural-networks/
+Note 2: The accuracy function that was used per epoch was an inappropriate metric of accuracy. However, at the end of the cpp file, the test set was looped through again to develop a coefficient of determination which is more indicative of how the DNN is able to explain the linear relationship between the two input values and the output value. A coefficient of determination of 1 means a strong linear relationship. 0 is no linear relationship.
+
+Thus, two very important things to work on for v3 are:
+1. Update biases. Very important if the linear relationship does not go through the origin
+2. Adapt the “accuracy” function to accept functions that must wait until the end of the epoch to make an accuracy claim (not on a data point by data point basis
+
 -------------------------------------------
 DNN_CPPv2 Folder
 -------------------------------------------
