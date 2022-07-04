@@ -117,23 +117,3 @@ issue at hand and does not EXACTLY represent Minecraft's method of determining b
 However, I did my best to replicate the Moderator Team's published paper's description of Minecraft's usage of 
 Java's Linear Congruential Generators.
 
-
--------------------------------------------
-wordle.py
--------------------------------------------
-
-Run:
-
-python wordle.py
-
-Short: Python script that depicts the top 10 likeliest wordle answers based on user inputs into the actual game.
-
-Long: Wordle is a popular online game where players have six guess what a hidden five-letter word is. Every guess that is made the game will tell the user how accurate their guess is by letting the user know what letters are not in the word (grey letter) what letters are in the word but in the wrong location (yellow letter) and what letters are in the correct location (green letter). A user will input the words they have guessed and the corresponding colors of the letters (- is grey, y is yellow, g is green). Then, the program will print the top 10 likeliest answers. The percentages are based on a frequency calculation that determines out of all of the possible wordle answers how likely is there to be a certain letter in a certain position. 
-
-NOTES: 
-1. The probability answers are based on a word's frequency and the “breadth” options are high probability but try to deviate away from already guessed letters. It is recommended to use breadth recommendations in the beginning and probability (depth) near the end. 
-2. The breadth algorithm does not follow any concrete mathematical formula. It just follows the general logic of trying to get the highest probability word with the most unique letters compared to the user’s guesses. 
-3. This only uses the answer words as inputs (wordle allows other input besides a potential answer). 
-4. Breadth options are constrained by having to still be a viable final answer. This means that another word could be a much better options to explore breadth but was eliminated since it could not be the actual answer.
-
-Lots of potential for optimization. This is just v1.
