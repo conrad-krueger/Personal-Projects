@@ -20,6 +20,32 @@ This script attempts to show that the probability of landing on any given square
 simulates as many rolls as the user desires and keeps track of the frequency of landing on any particular 
 square. Jail is the most popular square to land on and the most landed on property is Illinois Avenue. 
 
+
+-------------------------------------------
+moreSuccessful.py
+-------------------------------------------
+
+Run (if the user wants to only use hardcoded data):
+
+python moreSuccessful.py 
+
+Run (if the user wants to input data from terminal):
+
+python moreSuccessful.py user
+
+Short: This program develops confidence intervals on a list of player's population proportions of a Bernoulli event (ideally skill-based), 
+compares player's point estimates and indicates if there is statistically significant evidence to suggest that not all proportions are the 
+same using Chi-squared Hypothesis Testing,  and if there is evidence, isolate which differences in the player's point estimates are statistically significant using the Marascuilo Procedure.
+
+Long: Willing to ruin friendships by having statistically significant evidence that one is better than their friends at a skill-based game (which is also a Bernoulli event). This is the program to run. A hypothetical scenario:
+
+Say a group of 3 (or more) friends wants to determine who is the better free-throw shooter. Each person should could a series of Bernoulli trials where a “success” is a person making a free throw and a “failure” is a person missing a free throw. Each friend should input their name, sample proportion of successes (call it p1 for friend 1), and trials they conducted into the program. Then after choosing some alpha levels, the following information will be displayed:
+
+1. A confidence interval of the population proportion of each player's free throw percentage if and only if the Central Limit Theorem is applicable (ensure the friends make and miss at least 5 free throws)
+2. A Hypothesis Test's results where the null hypothesis is p1 = p2 = p3 (the proportions are all equal) and the alternate hypothesis is Not all proportions are equal. This will use a Chi-Squared Distribution and compare each proportion to the hypothetical average proportion between all of the players.
+3. If there is statistically significant evidence that the free point percentages are not all equal, a Marasculio Procedure will run to determine between which friends is there a statistically significant difference in proportions (technically making the case that there is evidence that one friend is a better free throw shooter than the other).
+
+
 -------------------------------------------
 shutTheBox.py
 -------------------------------------------
