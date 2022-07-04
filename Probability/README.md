@@ -41,9 +41,9 @@ Long: Willing to ruin friendships by having statistically significant evidence t
 
 Say a group of 3 (or more) friends wants to determine who is the better free-throw shooter. Each person should conduct a series of Bernoulli trials where a “success” is a person making a free throw and a “failure” is a person missing a free throw. Each friend should input their name, sample proportion of successes (call it p1 for friend 1), and trials they conducted into the program. Then after choosing some alpha levels, the following information will be displayed:
 
-1. A confidence interval of the population proportion of each player's free throw percentage if and only if the Central Limit Theorem is applicable (ensure the friends make and miss at least 5 free throws)
+1. A confidence interval on the population proportion of each player's free throw percentage if and only if the Central Limit Theorem is applicable (ensure the friends make and miss at least 5 free throws)
 2. A Hypothesis Test's results where the null hypothesis is p1 = p2 = p3 (the proportions are all equal) and the alternate hypothesis is Not all proportions are equal. This will use a Chi-Squared Distribution and compare each proportion to the hypothetical average proportion between all of the players.
-3. If there is statistically significant evidence that the free point percentages are not all equal, a Marasculio Procedure will run to determine between which friends is there a statistically significant difference in proportions (technically making the case that there is evidence that one friend is a better free throw shooter than the other).
+3. If there is statistically significant evidence that the free throw point percentages are not all equal, a Marasculio Procedure will run to determine between which friends is there a statistically significant difference in proportions (technically making the case that there is evidence that one friend is a better free throw shooter than the other).
 
 
 -------------------------------------------
