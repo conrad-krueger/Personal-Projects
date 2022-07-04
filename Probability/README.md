@@ -34,8 +34,8 @@ Run (if the user wants to input data from terminal):
 python moreSuccessful.py user
 
 Short: This program develops confidence intervals on a list of player's population proportions of a Bernoulli event (ideally skill-based), 
-compares player's point estimates and indicates if there is statistically significant evidence to suggest that not all proportions are the 
-same using Chi-squared Hypothesis Testing,  and if there is evidence, isolate which differences in the player's point estimates are statistically significant using the Marascuilo Procedure.
+compares player's point estimates to indicate if there is statistically significant evidence to suggest that not all proportions are the 
+same (Chi-squared Hypothesis Testing), and if there is evidence, isolate which differences in the player's point estimates are statistically significant using the Marascuilo Procedure.
 
 Long: Willing to ruin friendships by having statistically significant evidence that one is better than their friends at a skill-based game (which is also a Bernoulli event). This is the program to run. A hypothetical scenario:
 
