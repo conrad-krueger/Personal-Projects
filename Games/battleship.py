@@ -2,7 +2,7 @@ import random
 import time
 
 
-#This program simulates the battleship game against a program
+#This program simulates the battleship game against a bot
 
 
 #initalize random guessing strategy
@@ -37,6 +37,12 @@ grid = [[0 for x in range(10)] for x in range(10)]
 
 #clear grid
 def clear(grid):
+  """
+  Clears grid
+  
+  :param list grid: grid to be set to all zeros
+  :return: None
+  """
   for i in range(len(grid)):
     for j in range(len(grid[0])):
       grid[i][j]= 0
@@ -95,7 +101,7 @@ def compAtk(x,y):
     return 5
 
   if gridPlay[x][y] == 1:
-    print("HIT")
+    print("Computer HIT")
     gridPlay[x][y] = -1
     
   
@@ -122,7 +128,7 @@ def isEmpty(x,y,grid):
   :param int x: x coordinate position on the grid
   :param int y: y coordinate position on the grid
   :param list grid: the grid itself 
-  :return: if grid is empty
+  :return: if grid[x][y] is empty
   :rtype: bool
   """
   if x > 9 or x < 0 or y > 9 or y < 0: return False
@@ -172,7 +178,7 @@ def randPos(grid,length,ships):
     length -= 1
 
     #if cannot traverse the total length from the mid point, choose another mid point
-    #each if does this
+    #each if-statement does this
 
     if (upOrSide == 0):
       while(length != 0):
@@ -183,6 +189,7 @@ def randPos(grid,length,ships):
         else: 
           break
 
+    #break if all spots were filled
     if(length == 0):
       place(used,grid,ships)
       return
@@ -195,7 +202,8 @@ def randPos(grid,length,ships):
           length -= 1
         else: 
           break
-
+    
+    #break if all spots were filled
     if(length == 0):
       place(used,grid,ships)
       return
