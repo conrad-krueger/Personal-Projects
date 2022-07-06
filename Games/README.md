@@ -52,3 +52,7 @@ the opponent's ships before the computer sinks all of your ships. The computer i
 
 NOTE: battleshipV2.py is in the making to have the computer develop a more intelligent guessing algorithm. Along with graphics.
 
+UPDATE:
+- Added more intelligent guessing algorithm.
+- Added documentation for functions.
+
