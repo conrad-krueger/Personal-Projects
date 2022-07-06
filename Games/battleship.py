@@ -329,7 +329,7 @@ def playerPlace(num):
       randPos(gridPlay,3,shipsPlay)
       randPos(gridPlay,3,shipsPlay)
       randPos(gridPlay,2,shipsPlay)
-      depict(gridPlay,True)
+      #depict(gridPlay,True)
       num = 0
     else:
       try:
@@ -430,8 +430,8 @@ def main():
   print("WELCOME TO BATTLE SHIP")
   time.sleep(2)
 
-  print("YOUR BOARD")
-  depict(gridPlay,True)
+  #print("YOUR BOARD")
+  #depict(gridPlay,True)
   playerPlace(5)
   time.sleep(2)
 
@@ -443,6 +443,10 @@ def main():
 
     print()
     print()
+    print("YOUR BOARD")
+    depict(gridPlay,True)
+    print()
+    print("COMPUTER BOARD")
     depict(grid,cheater)
     guess = input("Enter a coordinate postion to attack: ")
 
@@ -458,7 +462,7 @@ def main():
     time.sleep(1)
     atk(x,y)
     time.sleep(2)
-    depict(grid,cheater)
+    #depict(grid,cheater)
     print()
     print()
 
