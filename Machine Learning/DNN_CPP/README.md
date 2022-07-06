@@ -22,8 +22,8 @@ Updates:
 * Added new attributes L (as the actual loss function), D_L (derivative of the Loss Function), activations (vector of actual activation functions), activationDerivatives (vector of functions that are derivatives of their corresponding activation function). It makes the code way more readable, with significantly less if-statements
 * Wrote the derivatives of the activation functions relu, linear, tanh, softmax, and logistic as static functions in the class
 * Wrote the functions and derivatives of the loss functions mean squared error (mse) and cross entropy (cross_entropy) as static functions in the class
-* regress.cpp updated to include a +5 biases and with noise which the model correctly identifies (bias = 4.5)
-* shapes.cpp updated to save the model to a .txt file called “shapemodel.txt” so there is no need to retrain
+* regress.cpp updated to include a +5 biases with noise which the model correctly identifies (bias = 4.5)
+* shapes.cpp updated to save the model to a .txt file called “model2.txt” so there is no need to retrain
 * model.txt is sample of what the save() function will produce
 
 Working on for v4:
