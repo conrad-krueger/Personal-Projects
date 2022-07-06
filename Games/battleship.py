@@ -463,8 +463,6 @@ def main():
     atk(x,y)
     time.sleep(2)
     #depict(grid,cheater)
-    print()
-    print()
 
     if (len(ships) == 0):
       print("YOU WIN!!!!")
