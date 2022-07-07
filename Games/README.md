@@ -16,30 +16,6 @@ If the player guesses incorrectly, a life is deducted from the player. If the pl
 
 
 -------------------------------------------
-murderMystery.py
--------------------------------------------
-Run:
-python murderMystery.py
-
-Short: Play Murder Mystery where you and 9 other players (all computers) are assigned the roles of murderer (evil - kill all of the good team),
-detective (good- investigate players and reveal roles), doctor (good - prevents murders from occurring toward a selected player),
-and citizen (good - does nothing). Murderers must kill all of the good team, while the good team tries to vote out the murderers.
-
-Long: This game was inspired by the popular family game mafia where the mafia would "execute" a player every night and the players would
-wake up and discuss who should be voted out. This game was modified where innocent players could also have additional roles to aid them
-in discovering who the evildoers are. As stated in the short description, detectives are able to investigate a player every night.
-If the player is a detective, they will manually select who they want to investigate. If they find someone evil, they will be prompted
-if they want to release this information to the public. This, however, may be a bad idea since every round there are 2 murderers, and if a player
-reveals their identity as innocent they will be targeted by the murderers.
-
-A doctor is presented with a similar interface where every night they can select who to prevent from getting murdered.
-
-A murderer has the same interface but instead chooses who to kill every night. In the morning the mayor will make some announcements on who,
-if any, players died and then ask if anyone wants to reveal any information. If a player is outed as being evil then the town will vote for
-that player. The town will vote a player out every other day. So on the first day, usually someone random, which could be the player,
-will be voted out.
-
--------------------------------------------
 battleship.py
 -------------------------------------------
 Run:
