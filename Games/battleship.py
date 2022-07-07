@@ -232,7 +232,7 @@ def depict(grid,cheater = False):
     for space in row:
       indicate = " "
       if (cheater and space == 1):
-        indicate = "&" #shows positio of a ship part
+        indicate = "&" #shows position of a ship part
       if (space == -1):
         indicate = "X" #shows hit marker
       if (space == 5):
