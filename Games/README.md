@@ -52,6 +52,6 @@ the opponent's ships before the computer sinks all of your ships. The computer i
 
 
 UPDATE:
-- Added a more intelligent guessing algorithm. (Medium/Hard difficulty. Will not sink two ships at once if they are next to each other. To clarify, if two ships are right next to each other and the computer manages to discover both of them in a short time frame, it will only attempt to fully sink one of them before returning to random guessing)
+- Added a more intelligent guessing algorithm. (Medium/Hard difficulty)
 - Added documentation for every function.
 
