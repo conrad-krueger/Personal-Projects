@@ -209,13 +209,6 @@ bool operator!=(const Matrix<double>& lhs, const Matrix<double>& rhs){
 
 
 
-
-/*
-//public = public -> public, protect->protect
-//protect = public -> protect, protect->protect
-//private [default] = public -> private, protect->private
-*/
-
 class IdentityMatrix : public Matrix<int>{
     public:
 
