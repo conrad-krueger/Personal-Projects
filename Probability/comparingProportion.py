@@ -11,7 +11,7 @@ def comparingProportion(px,m,py,n,alpha=.05):
   print(Z)
   pval = stats.norm.sf(abs(Z))
 
-  if pval < alpha: print("Reject the null hypothesis that px = py")
+  if pval < alpha/2: print("Reject the null hypothesis that px = py")
   else: print("FAIL to reject the null hypothesis that px = py")
   
   return pval
