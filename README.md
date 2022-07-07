@@ -4,7 +4,7 @@ My name is Conrad and this is a repository of all of the projects I have worked 
 I love coding in my spare time and I decided to upload most of it to this repository. 
 Some of the projects you'll find here range from very basic games (like hangman) 
 to using APIs to create Neural Networks. 
-Feel free to use any of the code on here.
+
 
 
 Each of my projects is found in folders that contain a README file. The README 
