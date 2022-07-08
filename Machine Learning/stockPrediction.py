@@ -78,6 +78,6 @@ xs = np.array([x for x in range(2550,2901)])
 xs=xs.reshape(351,1)
 plt.plot(xs,results*10000,label="Predicted")
 plt.legend()
-plt.xlim([2500,3000])
+plt.xlim([1500,3000])
 
 plt.show(block=True)
