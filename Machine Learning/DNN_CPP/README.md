@@ -17,7 +17,7 @@ g++ DenseNeuralNetwork.cpp regress.cpp -o regress -O3
 
 Updates:
 * shuffle boolean parameter in train() function. Shuffles dataset
-* save() and load() functions that save DenseNeuralNetwork information to a .txt file and read DenseNeuralNetwork information from a .txt file respectively. Also another constructor with just a string parameter was created to create DenseNeuralNetwork objects from .txt files
+* save() and load() functions that save DenseNeuralNetwork information to a .txt file and read DenseNeuralNetwork information from a .txt file respectively. Another constructor with just a string parameter was created to create DenseNeuralNetwork objects from .txt files
 * Biases now update during backpropagation
 * Added new attributes L (as the actual loss function), D_L (derivative of the Loss Function), activations (vector of actual activation functions), activationDerivatives (vector of functions that are derivatives of their corresponding activation function). It makes the code way more readable, with significantly less if-statements
 * Wrote the derivatives of the activation functions relu, linear, tanh, softmax, and logistic as static functions in the class
