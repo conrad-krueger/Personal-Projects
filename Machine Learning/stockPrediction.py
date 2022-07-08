@@ -56,7 +56,7 @@ model.add(tf.keras.layers.LSTM(50,return_sequences=False))
 model.add(tf.keras.layers.Dense(25))
 model.add(tf.keras.layers.Dense(1))
 
-model.compile(optimizer='adam',loss='mean_absolute_error')
+model.compile(optimizer='adam',loss='mean_squared_error')
 
 model.fit(train_feat,train_label,epochs=1,batch_size=4)
 
