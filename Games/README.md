@@ -12,7 +12,7 @@ python hangman.py
 Short: Play hangman. The player has 6 lives to guess what the hidden word is.
 
 Long: The player is presented with an unknown word and may guess a letter or what the whole word is on each turn.
-If the player guesses incorrectly, a life is deducted from the player. If the player guesses the word before their lives run out they win.
+If the player guesses incorrectly, a life is deducted from the player. If the player guesses the word before their lives run out, they win.
 
 
 -------------------------------------------
