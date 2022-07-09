@@ -39,7 +39,10 @@ Stock_with_LSTM.py
 Short: This program experiments with and inevitably concludes a Long-Short-Term-Memory Recurrent Neural Network Architecture in this YouTube video (https://www.youtube.com/watch?v=QIUxPv5PJOY&t=2199s) is not fully capable of predicting stock prices (at least when it comes to making extrapolations in the not-so-far future).
 
 Long: A YouTube video with almost 1 million views (https://www.youtube.com/watch?v=QIUxPv5PJOY&t=2199s) attempts to show how an LSTM RNN is capable of predicting stock prices. While the video flags viewers from using this model to make any financial advice, I argue that this model is very inaccurate even if one attempts to predict the stock value only a few days in the future.
-\This file will:
-\1. Recreate the model in the video with Amazon stock
-\2. Show why the model is inaccurate 
-\3. Create 2 functions to allow testing of the model with different hyperparameters with ease. This is in hopes of potentially getting the model to be more accurate as the model seems to be overfitting the data in the video (given the extremely low loss function value while training) and the large inaccuracy of the testing data
+This file will:
+ 
+1. Recreate the model in the video with Amazon stock
+ 
+2. Show why the model is inaccurate 
+ 
+3. Create 2 functions to allow testing of the model with different hyperparameters with ease. This is in hopes of potentially getting the model to be more accurate as the model seems to be overfitting the data in the video (given the extremely low loss function value while training) and the large inaccuracy of the testing data
