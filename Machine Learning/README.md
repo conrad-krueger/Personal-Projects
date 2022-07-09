@@ -45,4 +45,4 @@ This file will:
  
 2. Show why the model is inaccurate 
  
-3. Create 2 functions to allow testing of the model with different hyperparameters with ease. This is in hopes of potentially getting the model to be more accurate as the model seems to be overfitting the data in the video (given the extremely low loss function value while training) and the large inaccuracy of the testing data
+3. Create 2 functions to allow testing of the model with different hyperparameters with ease. This is in hopes of potentially getting the model to be more accurate as the model could potentially be overfitting the data in the video
