@@ -23,15 +23,6 @@ Uses a CNN with a pre-trained model (tf.keras.applications.MobileNetV2) to class
 (Bulbasaur, Charmander, Squirtle).
 ~90% accurate (depends on the device the program is ran on).
 
--------------------------------------------
-stockPrediction.py (uses AMZN.csv)
--------------------------------------------
-Run:
-
-python stockPrediction.py
-
-Uses a Long Short Term Memory Recurrent Neural Network to predict the trend of Amazon stock (AMZN.csv).
-More extrapolation = significantly more inaccuracy.
  
 -------------------------------------------
 TF.ipynb
