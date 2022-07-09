@@ -36,7 +36,7 @@ for Beginners Tutorial"
 Stock_with_LSTM.py
 -------------------------------------------
 
-Short: This program experiments with and inevitably concludes a Long-Short-Term-Memory Recurrent Neural Network Architecture in this YouTube video (https://www.youtube.com/watch?v=QIUxPv5PJOY&t=2199s)vis not fully capable of predicting stock prices (at least when it comes to making extrapolations in the far future).
+Short: This program experiments with and inevitably concludes a Long-Short-Term-Memory Recurrent Neural Network Architecture in this YouTube video (https://www.youtube.com/watch?v=QIUxPv5PJOY&t=2199s) is not fully capable of predicting stock prices (at least when it comes to making extrapolations in the not-so-far future).
 
 Long: A YouTube video with almost 1 million views (https://www.youtube.com/watch?v=QIUxPv5PJOY&t=2199s) attempts to show how an LSTM RNN is capable of predicting stock prices. While the video flags viewers from using this model to make any financial advice, I argue that this model is very inaccurate even if one attempts to predict the stock value only a few days in the future.
 \This file will:
