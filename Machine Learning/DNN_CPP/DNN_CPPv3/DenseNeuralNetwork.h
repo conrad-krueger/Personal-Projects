@@ -151,7 +151,7 @@ class DenseNeuralNetwork{
         return (indxPred == indxAct);
     }
     
-    //closer to 1 or 0 (for logisitic and one output node)
+    //closer to 1 or 0 (for logistic and one output node)
     bool static zeroOrOne(vector<double> predicted, vector<double> actual){
         if (actual.at(0) == 1 && predicted.at(0) >= 0.5) return true;
         if (actual.at(0) == 0 && predicted.at(0) < 0.5) return true;
