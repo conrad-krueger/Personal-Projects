@@ -37,7 +37,7 @@ Short: This program develops confidence intervals on a list of player's populati
 compares player's point estimates to indicate if there is statistically significant evidence to suggest that not all proportions are the 
 same (Chi-squared Hypothesis Testing), and if there is evidence, isolate which differences in the player's point estimates are statistically significant using the Marascuilo Procedure.
 
-Long: Willing to ruin friendships by having statistically significant evidence that one is better than their friends at a skill-based game (which is also a Bernoulli event). This is the program to run. A hypothetical scenario:
+Long: Willing to ruin friendships by having statistically significant evidence that one is better than their friends at a skill-based game (which is also a Bernoulli event)? This is the program to run. A hypothetical scenario:
 
 Say a group of 3 (or more) friends wants to determine who is the better free-throw shooter. Each person should conduct a series of Bernoulli trials where a “success” is a person making a free throw and a “failure” is a person missing a free throw. Each friend should input their name, sample proportion of successes (call it p1 for friend 1), and trials they conducted into the program. Then after choosing some alpha levels, the following information will be displayed:
 
