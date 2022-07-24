@@ -135,7 +135,7 @@ was.
 Their paper used the Binomial Distribution as a basis to show the likelihood of getting 42/262 ender pearls 
 (when the population proportion is ~5%) and getting 211/305 blaze rods (when the population proportion is 50%). 
 This script simply runs as many iterations as the user desires and depicts how many instances of those 
-iterations got the same blaze drop rate, the same ender pearl drop rate, and both.
+iterations got the same (or better) blaze drop rate, the same (or better) ender pearl drop rate, and both.
 
 Note: Minecraft uses Java's Random class as its random generator (for nearly everything). So I used it as well 
 as a method of getting a different seed for the Random object. This simulation is a naive recreation of the 
