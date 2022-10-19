@@ -1,5 +1,21 @@
 DNN_CPP 
 =============================================
+-------------------------------------------
+DNN_CPPv3 Folder
+-------------------------------------------
+Compile and run:
+
+g++ DenseNeuralNetwork.cpp shapes.cpp -o shapes -O3
+
+./shapes
+
+
+g++ DenseNeuralNetwork.cpp regress.cpp -o regress -O3
+
+./regress
+
+Updates:
+MORE SPECIFIC DOCUMENTATION COMING SOON. IMPLEMENTED THREADING FOR FORWARD PROPOGATION. EFFICENT IF TRAINING BETWEEN 4 - 16  SAMPLE BATCH SIZE.
 
 -------------------------------------------
 DNN_CPPv3 Folder
