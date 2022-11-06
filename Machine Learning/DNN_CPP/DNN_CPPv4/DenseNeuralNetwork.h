@@ -112,7 +112,7 @@ class DenseNeuralNetwork{
     //Loss functions and derivatives 
     //Mean Squared Error
     long double static mse(double output, double expected){return (output-expected)*(output-expected);}
-    long double static Dmse(double output, double expected){return (output-expected);}
+    long double static Dmse(double output, double expected){return 2*(output-expected);}
 
     //Cross Entropy
     long double static cross_entropy(double output, double expected){return -1*expected*log2(output);}
@@ -122,7 +122,7 @@ class DenseNeuralNetwork{
 
     //Activation functions and derivatives 
     long double static relu(double val){ if (val == 0) throw "ERROR: ReLU(0) is undefined";   return (val < 0)? 0 : val;}
-    long double static Drelu(double val){return (val == 0) ? 0 : 1;}
+    long double static Drelu(double val){return (val < 0) ? 0 : 1;}
 
     long double static logistic(double val){ return 1.0 / (1.0+exp(-1*val));}
     long double static Dlogistic(double val){ return val*(1-val);}
