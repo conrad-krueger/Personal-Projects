@@ -1,14 +1,7 @@
 Machine Learning
 =============================================
 
-This folder contains Machine Learning Architecture.
-
--------------------------------------------
-DNN_CPP folder
--------------------------------------------
-A folder that contains an implementation of a Dense Neural Network from scratch in C++.
-
-Current Version: v4 [v4 documentation coming soon]
+This folder contains Machine Learning Python Scripts.
 
 -------------------------------------------
 classifyEmAll.py (uses pkmn_img)
